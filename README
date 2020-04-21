@@ -1,0 +1,7 @@
+NOTE: This is an OLD distribution of MENDEL released in 2010.
+
+This is only a source distribution of Mendel's Accountant, which means
+the code must be compiled.  This is the only release which contains
+the C-version of Mendel's Accountant.  Development of the C-version was 
+discontinued due to the poor performance of C as compared with Fortran for
+doing numerical computations.

@@ -1,0 +1,26 @@
+This version of Mendel's Accountant is a single-user Linux version
+which has been tested on Fedora, Ubuntu, and Debian Linux systems.
+Although it has been designed with the philosophy to work on any 
+operating system, it is only supported on the above operating systems.
+
+To install this version, run the following commands as root user:
+
+# tar xvfz mendel_v1.5.0.tar.gz
+# cd mendel_v1.5.0
+# ./configure
+# make
+# make install
+
+If you want to configure Mendel's Account to be used
+with your Fortran compiler, replace the configure step
+above with the following command:
+
+# ./configure --with-fortran 
+
+If you have PBS/Torque queueing system, and you want Mendel to use it,
+run the following configure command:
+
+# ./configure --with-torque
+
+See the mendel_linux_howto.pdf from http://mendelsaccountant.info
+for more details on configuring the Linux version for your machine.
